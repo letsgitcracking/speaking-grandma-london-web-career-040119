@@ -17,8 +17,8 @@ def speak_to_grandma convo
     return "HUH?! SPEAK UP, SONNY!"
   elsif convo == convo.upcase
     puts "NO, NOT SINCE 1938!"
-  elsif convo === "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+  elsif convo == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
     
