@@ -15,5 +15,5 @@
 def speak_to_grandma convo
   if convo == !convo.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-  else if 
+  elsif convo == convo.upcase
     
