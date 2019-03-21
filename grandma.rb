@@ -14,11 +14,11 @@
 
 def speak_to_grandma convo
   if convo == convo.upcase && != "I LOVE YOU GRANDMA!"
-	return "NO, NOT SINCE 1938!"
+	  return "NO, NOT SINCE 1938!"
   elsif convo == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-else 
-	return "HUH?! SPEAK UP, SONNY!"
+  else 
+	  return "HUH?! SPEAK UP, SONNY!"
   end
 end
     
