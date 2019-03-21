@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma convo
-  if convo == convo.upcase && !"I LOVE YOU GRANDMA!"
+  if convo == convo.upcase
 	  return "NO, NOT SINCE 1938!"
   elsif convo == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
