@@ -13,4 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma convo
-  if convo == convo.
+  if convo == !convo.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  else if 
+    
